@@ -31,6 +31,8 @@ public class ProductController {
         }
     }
 
+    //    //TODO 2 Wite api to to get products by price range  take input as desired min and max ammount use lamda to to process the data
+
     // ✅ Get all products
     @GetMapping("/all")
     public ResponseEntity<?> getAllProducts() {
