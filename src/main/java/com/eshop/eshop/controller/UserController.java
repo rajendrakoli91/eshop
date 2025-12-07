@@ -26,6 +26,8 @@ public class UserController {
         return ResponseEntity.status(HttpStatus.CREATED).body(createdUser);
     }
 
+    //TODO 5 wite api to add list of users use lamda to processe this "api/users/addAll"
+
     // ✅ Get All Users
     @GetMapping
     public ResponseEntity<List<User>> getAllUsers() {
