@@ -46,4 +46,6 @@ public class UserController {
                 .orElseGet(() -> ResponseEntity.status(HttpStatus.NOT_FOUND).build()); // if absent → 404
     }
 
+//TODO 4 write an api to get all the user names ordering by alfabetical order
+    
 }
