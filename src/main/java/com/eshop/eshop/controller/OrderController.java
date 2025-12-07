@@ -30,6 +30,10 @@ public class OrderController {
         return ResponseEntity.ok(orders);
     }
 
+    //TODO  Wite api to filter order by status take input as desired status use lamda to filter
+
+    
+
     @GetMapping("/{id}")
     public ResponseEntity<Order> getOrderById(@PathVariable int id) {
 
